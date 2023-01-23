@@ -12,6 +12,8 @@ Usage
 $ hub clone rtomayko/tilt
 
 # expands to:
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flisabee123%2Fhub.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flisabee123%2Fhub?ref=badge_shield)
+
 #=> git clone git://github.com/rtomayko/tilt.git
 ```
 
@@ -128,3 +130,7 @@ Meta
 * Home: <https://github.com/github/hub>
 * Bugs: <https://github.com/github/hub/issues>
 * Authors: <https://github.com/github/hub/contributors>
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flisabee123%2Fhub.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flisabee123%2Fhub?ref=badge_large)
