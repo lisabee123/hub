@@ -473,7 +473,12 @@ func parsePullRequestIssueNumber(url string) string {
 }
 
 func commaSeparated(l []string) []string {
-	res := []string{}
+	capacity := 0
+	for _, i := range l {
+		capacity += strings.Count(i, ",") + 1
+	}
+	
+	res := make([]string, 0, capacity)
 	for _, i := range l {
 		res = append(res, strings.Split(i, ",")...)
 	}
